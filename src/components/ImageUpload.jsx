@@ -35,7 +35,7 @@ export default function ImageUpload({ onResult }) {
             formData.append("preprocess_mode", mode);
 
             const res = await axios.post(
-                "https://img-to-txt-backend-production.up.railway.app/ocr",
+                "https://img-to-txt-pl0v.onrender.com/ocr",
                 formData,
                 {
                     headers: {
